@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5G Policy Control Function Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>5G Policy Control Function Simulator</h1>
+        <p>Cloud Hosted Telecom Policy Engine on Azure</p>
+    </div>
+
+    <div class="form-section">
+
+        <label>Subscriber Tier</label>
+        <select id="subscriber">
+            <option>Gold</option>
+            <option>Silver</option>
+            <option>Bronze</option>
+        </select>
+
+        <label>Network Slice</label>
+        <select id="slice">
+            <option>eMBB</option>
+            <option>URLLC</option>
+            <option>mMTC</option>
+        </select>
+
+        <label>Monthly Usage (GB)</label>
+        <input type="number" id="usage" placeholder="Enter Usage">
+
+        <label>Roaming Status</label>
+        <select id="roaming">
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+
+        <button onclick="evaluatePolicy()">
+            Evaluate Policy
+        </button>
+
+    </div>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
