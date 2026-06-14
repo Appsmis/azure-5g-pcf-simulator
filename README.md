@@ -101,7 +101,10 @@ The solution is deployed using Azure Static Website Hosting and demonstrates the
 ## Project Structure
 
 ```text
-azure-5g-pcf-simulator
+azure-5g-pcf-simulator/
+│
+├── README.md
+├── LICENSE
 │
 ├── index.html
 │   └── Main application interface
@@ -111,9 +114,6 @@ azure-5g-pcf-simulator
 │
 ├── script.js
 │   └── PCF policy decision logic
-│
-├── README.md
-│   └── Project documentation
 │
 ├── architecture-diagram.png
 │   └── Azure cloud architecture diagram
@@ -125,11 +125,12 @@ azure-5g-pcf-simulator
 │   └── Policy evaluation results
 │
 ├── screenshots-azure-static-website.png
-│   └── Azure Static Website configuration
+│   └── Azure Static Website Hosting configuration
 │
 └── screenshots-web-container.png
     └── Azure Blob Storage deployment artifacts
 ```
+
 ---
 
 ## Future Enhancements
