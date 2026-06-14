@@ -23,7 +23,7 @@ The solution is deployed using Azure Static Website Hosting and demonstrates the
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.png)
 
 
 ---
@@ -64,19 +64,19 @@ The solution is deployed using Azure Static Website Hosting and demonstrates the
 
 ### Application Home Page
 
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots-homepage.png)
 
 ### Policy Evaluation Result
 
-![Policy Evaluation](screenshots/policy-evaluation.png)
+![Policy Evaluation](screenshots-policy-evaluation.png)
 
 ### Azure Static Website Hosting
 
-![Azure Static Website](screenshots/azure-static-website.png)
+![Azure Static Website](screenshots-azure-static-website.png)
 
 ### Azure Deployment Artifacts
 
-![Web Container](screenshots/web-container.png)
+![Web Container](screenshots-web-container.png)
 
 ---
 
