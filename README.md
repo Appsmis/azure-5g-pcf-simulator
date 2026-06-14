@@ -3,7 +3,8 @@
 
 ## Overview
 
-The 5G Policy Control Function (PCF) Simulator is a cloud-hosted telecom policy decision engine inspired by real-world 5G core network architectures.
+The 5G Policy Control Function (PCF) Simulator is a cloud-hosted telecom policy decision engine that models key policy control concepts used in modern 5G core networks. Inspired by real-world PCF/PCRF architectures, the application evaluates subscriber attributes and generates policy decisions related to QoS management, roaming control, subscriber prioritization, and network slicing.
+
 
 The application evaluates subscriber requests based on:
 
@@ -46,7 +47,16 @@ The solution is deployed using Azure Static Website Hosting and demonstrates the
 * Cloud Deployment on Azure
 
 ---
+## Technologies Used
 
+* HTML5
+* CSS3
+* JavaScript
+* Microsoft Azure Storage Account
+* Azure Blob Storage
+* Azure Static Website Hosting
+* Draw.io (Architecture Design)
+---
 ## Real-World Telecom Mapping
 
 | Simulator Component     | Telecom Network Component     |
